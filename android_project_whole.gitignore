@@ -101,6 +101,9 @@ lint/outputs/
 lint/tmp/
 # lint/reports/
 
+# Android Profiling
+*.hprof
+
 
 ### GitHub Global/macOS.gitignore template
 # General
@@ -151,6 +154,7 @@ Temporary Items
 ### GitHub Global/Windows.gitignore template
 # Windows thumbnail cache files
 Thumbs.db
+Thumbs.db:encryptable
 ehthumbs.db
 ehthumbs_vista.db
 
